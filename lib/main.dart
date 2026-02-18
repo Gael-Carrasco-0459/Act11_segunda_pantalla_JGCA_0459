@@ -188,7 +188,7 @@ class DinoCard extends StatelessWidget {
 
 class _NavBarItem extends StatefulWidget {
   final String title;
-  const _NavBarItem({super.key, required this.title});
+  const _NavBarItem({required this.title});
   @override
   State<_NavBarItem> createState() => _NavBarItemState();
 }
